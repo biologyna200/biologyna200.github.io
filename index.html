@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Contact V10</title>
+	<title>Біологія на 200</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->
@@ -45,17 +45,17 @@
             Заповніть анкету
           </span>
 				  <div class="wrap-input100 validate-input" data-validate="Введіть ваше ім'я">
-					  <input required class="input100" type="text" name="name" placeholder="Ім'я">
+					  <input required class="input100" type="text" minlength="2" name="name" placeholder="Ім'я">
 					  <span class="focus-input100"></span>
 				  </div>
 
 				  <div class="wrap-input100 validate-input" data-validate = "Введіть ваш нікнейм в інстаграмі">
-					  <input required class="input100" type="text" name="nickname" placeholder="Нікнейм в інстаграмі">
+					  <input required class="input100" type="text" minlength="2" name="nickname" placeholder="Нікнейм в інстаграмі" pattern="([A-Za-z0-9_]{2,15})">
 					  <span class="focus-input100"></span>
 				  </div>
 
 				  <div class="wrap-input100 validate-input" data-validate = "Введіть ваш номер телефону">
-					  <input required class="input100" type="tel" name="tel" placeholder="Номер телефону">
+					  <input required class="input100" type="tel" name="tel" minlength="10" maxlength="12" placeholder="Номер телефону">
 					  <span class="focus-input100"></span>
 				  </div>
         </div>
