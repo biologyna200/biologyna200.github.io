@@ -50,7 +50,7 @@
 				  </div>
 
 				  <div class="wrap-input100 validate-input" data-validate = "Введіть ваш нікнейм в інстаграмі">
-					  <input required class="input100" type="text" name="nickname" placeholder="Нікнейм в інстаграмі" pattern="([A-Za-z0-9_](?:(?:[A-Za-z0-9_]|(?:\.(?!\.))){0,28}(?:[A-Za-z0-9_]))?)">
+					  <input required class="input100" type="text" name="nickname" placeholder="Нікнейм в інстаграмі" pattern="^(?!.*\.\.)(?!.*\.$)[^\W][\w.]{0,29}$">
 					  <span class="focus-input100"></span>
 				  </div>
 

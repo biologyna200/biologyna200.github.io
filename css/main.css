@@ -5,7 +5,11 @@
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@font-face {
+  font-family: Ubuntu-Bold;
+  src: url('../fonts/ubuntu/Ubuntu-Bold.ttf'); 
+}
+
 
 
 /*//////////////////////////////////////////////////////////////////
@@ -23,12 +27,12 @@ html {
 
 body, html {
 	height: 100%;
-	font-family: Roboto, sans-serif;
+	font-family: Ubuntu-Bold, sans-serif;
 }
 
 /*---------------------------------------------*/
 a {
-	font-family: 'Roboto', sans-serif;
+	font-family: Ubuntu-Bold;
 	font-size: 14px;
 	line-height: 1.7;
 	color: #666666;
@@ -53,7 +57,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 p {
-	font-family: 'Roboto', sans-serif;
+	font-family: Ubuntu-Bold;
 	font-size: 14px;
 	line-height: 1.7;
 	color: #666666;
@@ -169,7 +173,7 @@ iframe {
 
 .contact100-form-title {
   display: block;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
@@ -227,7 +231,7 @@ iframe {
   display: block;
   margin: 0 auto;
   width: 100%;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -286,7 +290,7 @@ input.input100 {
   flex-wrap: wrap;
   justify-content: center;
   padding-top: 10px;
-  margin-top: 3vh;
+  margin-top: 2vh;
 }
 
 .contact100-form-btn {
@@ -303,7 +307,7 @@ input.input100 {
   background-color: transparent;
   border-radius: 13px;
 
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 2.5vh;
@@ -357,7 +361,7 @@ input.input100 {
   left:50%;
   transform:translate(-50%, -50%);
 
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
 
